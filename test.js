@@ -1,5 +1,5 @@
 console.log("node test");
-/*
+
 //http server
 var http = require("http");
 http.createServer(function (request, response) {
@@ -15,11 +15,8 @@ http.createServer(function (request, response) {
  // Console will print the message
  console.log('Server running at http://127.0.0.1:8081/');
 
-
 console.log("  ");
-*/
 
-/*
 //file system read async
 var fs = require("fs");
 fs.readFile('input.txt', function (err, data) {
@@ -28,13 +25,11 @@ fs.readFile('input.txt', function (err, data) {
 });
 
 console.log("Program Ended");
-*/
+/**/
 
-/*
+/**/
 var express = require("express"); 
 
-
-/*
 // Import events module
 var events = require('events');
 // Create an eventEmitter object
@@ -57,11 +52,3 @@ eventEmitter.on('data_received', function() {
 // Fire the connection event 
 eventEmitter.emit('connection');
 console.log("Program Ended.");
-*/
-
-
-
-
-
-
-
