@@ -1,0 +1,1 @@
+{"author":"","name":"WorkerRole1","version":"0.0.0","devDependencies":{},"optionalDependencies":{},"engines":{"node":"0.6.20","iisnode":"*"},"dependencies":{"simple-node-logger":"^18.12.23","teltonika-parser":"0.0.15"}}

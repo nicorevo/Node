@@ -9,13 +9,17 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
     
     // Send the response body as "Hello World"
-    response.end('Hello World\n');
- }).listen(8081);
+    response.end('There is someone in my head but\n');
+    console.log("HWorld  ");
+
+ }).listen(3000);
  
  // Console will print the message
  console.log('Server running at http://127.0.0.1:8081/');
 
 console.log("  ");
+
+/*
 
 //file system read async
 var fs = require("fs");
@@ -25,9 +29,7 @@ fs.readFile('input.txt', function (err, data) {
 });
 
 console.log("Program Ended");
-/**/
-
-/**/
+ 
 var express = require("express"); 
 
 // Import events module
@@ -52,3 +54,4 @@ eventEmitter.on('data_received', function() {
 // Fire the connection event 
 eventEmitter.emit('connection');
 console.log("Program Ended.");
+*/
