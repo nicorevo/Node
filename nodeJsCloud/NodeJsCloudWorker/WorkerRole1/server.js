@@ -90,20 +90,22 @@ let server = net.createServer((c) => {
 server.listen(tcpport, () => { console.log("Server started"); });
 
 /*
+var http = require('http');
+const net = require('net');
+
+var port = process.env.port || 1337;
+var tcpport = process.env.tcpport || 8000;
+
 net.createServer(function (socket) {
 	socket.write('Echo server\r\n');
 	socket.pipe(socket);
 }).listen(tcpport);
-*/
 
-/*
-var http = require('http');
-var port = process.env.port || 1337;
 http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Hello World\n');
-}).listen(port);
-*/
+}).listen(port);*/
+
 
 // SIG // Begin signature block
 // SIG // MIIkJAYJKoZIhvcNAQcCoIIkFTCCJBECAQExDzANBglg
