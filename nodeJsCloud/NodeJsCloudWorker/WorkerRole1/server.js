@@ -20,6 +20,7 @@ http.createServer(function (req, res) {
    // res.end('Hello World\n');
 
     fs.readFile("tracker.log", function(err, buf) {
+        res.
         res.end(buf.toString());
         console.log(buf.toString());
       });

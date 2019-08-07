@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 30,
+            "database": "master",
+            "dialect": "MSSQL",
+            "name": "dev01",
+            "password": "Xoro1!",
+            "port": 1433,
+            "server": "192.168.18.105\\SQLEXPRESS2008",
+            "username": "sa"
+        }
+    ]
+}
